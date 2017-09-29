@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.jumbotron {
+	background-color: #20315A;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+header {
+	background-color: #20315A;
+	color: white;
+	padding: 5px;
+	width: 100%;
+	height: 50px;
+}
+
+h2 {
+	margin-left: 15px;
+}
+
+.form-section {
+	border: 2px solid #20315A;
+	border-radius: 5px;
+	height: 540px;
+}
+
+form {
+	padding: 20px;
+}
+
+.form-group {
+	margin-bottom: 0;
+}
+
+.search, .clear {
+	background-color: #798D8F;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	margin-top: 10px;
+}
+
+.search {
+	height: 50px;
+	width: 100px;
+	margin-left: 20px;
+}
+
+.clear {
+	height: 50px;
+	width: 130px;
+}

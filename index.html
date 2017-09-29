@@ -8,7 +8,10 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 
 </head>
 
@@ -30,90 +33,66 @@
 	
 	</div>
 
-<div class="form-section">
+	<div class="form-section">
 
-	<header>
+		<header>
 
-		<h2>
+			<h2>
 
-			<i class="fa fa-list-alt" aria-hidden="true"></i>
+				<i class="fa fa-list-alt" aria-hidden="true"></i>
 
-			Search Parameters
+				Search Parameters
+			
+			</h2>
 		
-		</h2>
+		</header>
+		
+		<form>
 
-	<form>
-
-		<label class="label-name" for="search">Search Term: </label>
-		<input type="text">
-
-<div class="col-lg-6">		
-
-	<div class="input-group">
-
-		<label class="label-name" for="number">Number of Records to Recieve: </label>
-
-		<input type="text">
-	      
-	      <div class="input-group-btn">
-	        
-	        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	        </button>
-	       
-	        <div class="dropdown-menu dropdown-menu-right">
-	         
-	          <a class="dropdown-item" href="#">1</a>
-	          <a class="dropdown-item" href="#">5</a>
-	          <a class="dropdown-item" href="#">10</a>
-
+			<label class="label-name" for="search"><strong>Search Term:</strong></label>
+			<br>
+			<input type="text" class="form-control">
+			<br>
+	  
+	     	<div class="form-group">
+	  			
+	  			<label for="sel1"><strong>Number or Records to Retrieve</strong></label>
+	  			
+	  			<select class="form-control">
+	    			
+	    			<option>1</option>
+	    			<option>5</option>
+	    			<option>10</option>
+	  			
+	  			</select>
+			
 			</div>
-		
-		</div>
+			<br>
 
-	</div>
+				<label class="start" for="start"><strong>Start Year (Optional):</strong></label>
+				<br>
+				<input type="text" class="form-control">
+				<br>
+				<label class="label-name" for="end"><strong>End Year (Optional):</strong></label>
+				<br>
+				<input type="text" class="form-control">
 
-</div>	
-		
-			<label class="label-name" for="start">Start Year (Optional): </label>
-			<input type="text">
+			
 
-			<label class="label-name" for="end">End Year (Optional):</label>
-			<input type="text">
+			</form>
+			
+			<button class="search"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
+			<button class="clear"><i class="fa fa-trash" aria-hidden="true"></i> Clear Results</button>
 
-		
+		<div class="search-results"></div>	
 
-		</form>
-		
-		<button><i class="fa fa-search" aria-hidden="true"> Search</i></button>
-		<button><i class="fa fa-trash" aria-hidden="true"></i> Clear Results</button>
-
-<div class="search-results"></div>	
-
-</div>		
-
-
-
-
-
+	</div>		
 
 </div>	
-
-
-	
-
-
-
-
-</div>
- 
-
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
 </body>
 </html>
-
-
-
-<!--API Key= 2d659f708f2041ec9eb3b2723e66ea7d-->
