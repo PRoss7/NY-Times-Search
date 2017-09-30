@@ -15,7 +15,9 @@ body {
 
 h1 {
 	font-size: 60px;
-}
+	font-family: 'EK Mukta Regular', sans-serif;
+	font-weight: bold;
+}	
 
 header {
 	background-color: #20315A;
@@ -27,7 +29,12 @@ header {
 
 h2 {
 	margin-left: 15px;
+	margin-top: 8px;
+	font-family: 'EK Mukta Regular', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
 }
+
 
 .form-section {
 	border: 2px solid #20315A;
